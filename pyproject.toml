@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "support-tg-bot"
+version = "0.1.0"
+description = ""
+authors = ["sergey936 <s.suslakov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^21.2"
+django-environ = "^0.11.2"
+pydantic = "^2.7.3"
+pydantic-settings = "^2.3.0"
+dishka = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
