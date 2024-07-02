@@ -8,4 +8,3 @@ from containers.providers import DefaultProvider
 @lru_cache(1)
 def get_container() -> AsyncContainer:
     return make_async_container(DefaultProvider())
-
